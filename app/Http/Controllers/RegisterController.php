@@ -27,7 +27,7 @@ class RegisterController extends Controller
     public function create(Request $request): JsonResponse
     {
         $validator = Validator::make($request->all(), [
-          'username' => 'required|unique:users|max:255'
+          'username' => 'required|alpha_num|unique:users|max:255'
         ]);
 
         if($validator->fails()){
