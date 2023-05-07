@@ -28,8 +28,12 @@ App will be accessible at: http://localhost:80. See [Endpoints](#-endpoints) for
 
 The laravel log inside the container is located at `/var/www/storage/logs/laravel.log`
 
+**Testing**
+
+- Run `docker-compose exec -it laravel.test php artisan test`
+
 ## Endpoints
 
 | URL                                                                                        | Use                     |
 | ------------------------------------------------------------------------------------------ | ----------------------- |
-| /api/v1/register                                                                           | create new account      |
+| /api/v1/register                                                                           | create new username     |
