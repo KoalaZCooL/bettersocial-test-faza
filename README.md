@@ -1,6 +1,8 @@
 # BetterSocial Backend Engineer Test
 
 - [Setup](#-setup)
+- [Debugging](#-debugging)
+- [Endpoints](#-endpoints)
 
 ## 🚀 Setup
 
